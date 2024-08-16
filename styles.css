@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    }
+    body{
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .date{
+        background-color: rgba(246, 227, 227, 0.8);
+     }
+    .container{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    
+    }
+    .date{
+    
+    
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    .month, .day-of-the-week, .day-of-the-month, .information{
+    
+    height: 25%;
+    }
+    .month{
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    .day-of-the-week{
+    text-align: center;
+    font-size: 40px;
+    height: 9%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    }
+    .day-of-the-month{
+   
+   
+    font-size: 40vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    border-radius: 35px;
+    height: 45vh;
+    
+    }
+    .information{
+        
+    width: 85%;
+    font-size: 35px;
+    text-align: center;
+    }
+    .source{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: grey;
+    }
+    .source img{
+        margin-right: 270px;
+    }
+    .description-container{
+    overflow: scroll;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(15, 14, 14); color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    } 
+    .description{
+    width: 80%;
+    margin: autos;
+    }
+    
+@media(max-width: 1000px){
+    .information, .source{
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    
+    
+}
+    
+    
